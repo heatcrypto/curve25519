@@ -1,13 +1,17 @@
 # curve25519
 
 Copyright (c) 2007 Michele Bini
+
 Konstantin Welke, 2008:
+
   - moved into .js file, renamed all c255lname to curve25519_name
   - added curve25519_clamp()
   - functions to read from/to 8bit string
   - removed base32/hex functions (cleanup)
   - removed setbit function (cleanup, had a bug anyway)
+
 BloodyRookie 2014:
+
   - ported part of the java implementation by Dmitry Skiba to js and merged into this file
   - profiled for higher speed
 
